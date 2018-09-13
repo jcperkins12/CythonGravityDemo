@@ -1,0 +1,23 @@
+# make sure that you have cython and line_profiler
+conda install cython
+conda install line_profiler
+
+# move the kernprof.exe and kernprof-script.py from the Scripts dir of of the environment to the working directory
+# i.e from C:\Users\a0225347\AppData\Local\Continuum\anaconda3\Scripts\ to C:\Python\CythonGravityDemo\
+#make sure that you are in the right environment
+conda activate Py3x
+
+----------------------------------------------------------------------------
+-------------------- To Use the Profiler -----------------------------------
+----------------------------------------------------------------------------
+# run the profiler
+python kernprof-script.py -l run_gravity.py
+
+# view the results with
+python -m line_profiler run_gravity.py.lprof
+
+
+----------------------------------------------------------------------------
+-------------------- Compile gravity_cy0 -----------------------------------
+----------------------------------------------------------------------------
+ python setup_cy0.py build_ext -i
