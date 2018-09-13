@@ -31,7 +31,7 @@ cdef void single_step(Planet planet, double dt):
     planet.vy += dt * Fy / planet.m
     planet.vz += dt * Fz / planet.m
 
-def step_time(planet, double time_span, int n_steps):
+def step_time(Planet planet, double time_span, int n_steps):
     """Make a number of time steps forward """
     cdef double dt
     cdef int j

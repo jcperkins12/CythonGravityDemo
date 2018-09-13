@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "gravity_cy2",
+        "name": "Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2",
         "sources": [
             "C:\\Python\\CythonGravityDemo\\Cy2_RestrictClassVariables\\gravity_cy2.pyx"
         ]
     },
-    "module_name": "gravity_cy2"
+    "module_name": "Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2"
 }
 END: Cython Metadata */
 
@@ -571,8 +571,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__gravity_cy2
-#define __PYX_HAVE_API__gravity_cy2
+#define __PYX_HAVE__Python__CythonGravityDemo__Cy2_RestrictClassVariables__gravity_cy2
+#define __PYX_HAVE_API__Python__CythonGravityDemo__Cy2_RestrictClassVariables__gravity_cy2
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -782,16 +782,16 @@ static const char *__pyx_f[] = {
 };
 
 /*--- Type declarations ---*/
-struct __pyx_obj_11gravity_cy2_Planet;
+struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet;
 
-/* "gravity_cy2.pyx":3
+/* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":3
  * from math import sqrt
  * 
  * cdef class Planet(object):             # <<<<<<<<<<<<<<
  *     cdef public double x, y, z, vx, vy, vz, m
  *     def __init__(self):
  */
-struct __pyx_obj_11gravity_cy2_Planet {
+struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet {
   PyObject_HEAD
   double x;
   double y;
@@ -987,6 +987,12 @@ static CYTHON_INLINE int __Pyx_PyObject_SetAttrStr(PyObject* obj, PyObject* attr
 #define __Pyx_PyObject_SetAttrStr(o,n,v) PyObject_SetAttr(o,n,v)
 #endif
 
+/* ArgTypeTest.proto */
+#define __Pyx_ArgTypeTest(obj, type, none_allowed, name, exact)\
+    ((likely((Py_TYPE(obj) == type) | (none_allowed && (obj == Py_None)))) ? 1 :\
+        __Pyx__ArgTypeTest(obj, type, name, exact))
+static int __Pyx__ArgTypeTest(PyObject *obj, PyTypeObject *type, const char *name, int exact);
+
 /* Import.proto */
 static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level);
 
@@ -1096,14 +1102,14 @@ static int __Pyx_check_binary_version(void);
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Module declarations from 'gravity_cy2' */
-static PyTypeObject *__pyx_ptype_11gravity_cy2_Planet = 0;
-static PyObject *__pyx_f_11gravity_cy2___pyx_unpickle_Planet__set_state(struct __pyx_obj_11gravity_cy2_Planet *, PyObject *); /*proto*/
-#define __Pyx_MODULE_NAME "gravity_cy2"
-extern int __pyx_module_is_main_gravity_cy2;
-int __pyx_module_is_main_gravity_cy2 = 0;
+/* Module declarations from 'Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2' */
+static PyTypeObject *__pyx_ptype_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet = 0;
+static PyObject *__pyx_f_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2___pyx_unpickle_Planet__set_state(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *, PyObject *); /*proto*/
+#define __Pyx_MODULE_NAME "Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2"
+extern int __pyx_module_is_main_Python__CythonGravityDemo__Cy2_RestrictClassVariables__gravity_cy2;
+int __pyx_module_is_main_Python__CythonGravityDemo__Cy2_RestrictClassVariables__gravity_cy2 = 0;
 
-/* Implementation of 'gravity_cy2' */
+/* Implementation of 'Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2' */
 static PyObject *__pyx_builtin_range;
 static const char __pyx_k_j[] = "j";
 static const char __pyx_k_m[] = "m";
@@ -1141,7 +1147,6 @@ static const char __pyx_k_step_time[] = "step_time";
 static const char __pyx_k_time_span[] = "time_span";
 static const char __pyx_k_pyx_result[] = "__pyx_result";
 static const char __pyx_k_PickleError[] = "PickleError";
-static const char __pyx_k_gravity_cy2[] = "gravity_cy2";
 static const char __pyx_k_single_step[] = "single_step";
 static const char __pyx_k_pyx_checksum[] = "__pyx_checksum";
 static const char __pyx_k_stringsource[] = "stringsource";
@@ -1152,17 +1157,18 @@ static const char __pyx_k_setstate_cython[] = "__setstate_cython__";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_pyx_unpickle_Planet[] = "__pyx_unpickle_Planet";
 static const char __pyx_k_Incompatible_checksums_s_vs_0xd9[] = "Incompatible checksums (%s vs 0xd90b9a1 = (m, vx, vy, vz, x, y, z))";
+static const char __pyx_k_Python_CythonGravityDemo_Cy2_Res[] = "Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2";
 static PyObject *__pyx_n_s_Fx;
 static PyObject *__pyx_n_s_Fy;
 static PyObject *__pyx_n_s_Fz;
 static PyObject *__pyx_kp_s_Incompatible_checksums_s_vs_0xd9;
 static PyObject *__pyx_n_s_PickleError;
+static PyObject *__pyx_n_s_Python_CythonGravityDemo_Cy2_Res;
 static PyObject *__pyx_n_s_cline_in_traceback;
 static PyObject *__pyx_n_s_dict;
 static PyObject *__pyx_n_s_distance;
 static PyObject *__pyx_n_s_dt;
 static PyObject *__pyx_n_s_getstate;
-static PyObject *__pyx_n_s_gravity_cy2;
 static PyObject *__pyx_kp_s_gravity_cy2_pyx;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_n_s_j;
@@ -1199,27 +1205,27 @@ static PyObject *__pyx_n_s_vz;
 static PyObject *__pyx_n_s_x;
 static PyObject *__pyx_n_s_y;
 static PyObject *__pyx_n_s_z;
-static int __pyx_pf_11gravity_cy2_6Planet___init__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_1x___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self); /* proto */
-static int __pyx_pf_11gravity_cy2_6Planet_1x_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_1y___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self); /* proto */
-static int __pyx_pf_11gravity_cy2_6Planet_1y_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_1z___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self); /* proto */
-static int __pyx_pf_11gravity_cy2_6Planet_1z_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_2vx___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self); /* proto */
-static int __pyx_pf_11gravity_cy2_6Planet_2vx_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_2vy___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self); /* proto */
-static int __pyx_pf_11gravity_cy2_6Planet_2vy_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_2vz___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self); /* proto */
-static int __pyx_pf_11gravity_cy2_6Planet_2vz_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_1m___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self); /* proto */
-static int __pyx_pf_11gravity_cy2_6Planet_1m_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_2__reduce_cython__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_4__setstate_cython__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_planet, PyObject *__pyx_v_dt); /* proto */
-static PyObject *__pyx_pf_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_planet, double __pyx_v_time_span, int __pyx_v_n_steps); /* proto */
-static PyObject *__pyx_pf_11gravity_cy2_4__pyx_unpickle_Planet(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_tp_new_11gravity_cy2_Planet(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet___init__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1x___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self); /* proto */
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1x_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1y___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self); /* proto */
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1y_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1z___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self); /* proto */
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1z_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vx___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self); /* proto */
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vx_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vy___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self); /* proto */
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vy_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vz___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self); /* proto */
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vz_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1m___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self); /* proto */
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1m_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2__reduce_cython__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_4__setstate_cython__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_planet, PyObject *__pyx_v_dt); /* proto */
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx_self, struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_planet, double __pyx_v_time_span, int __pyx_v_n_steps); /* proto */
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_4__pyx_unpickle_Planet(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_tp_new_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_int_2;
 static PyObject *__pyx_int_3;
 static PyObject *__pyx_int_227588513;
@@ -1231,7 +1237,7 @@ static PyObject *__pyx_codeobj__4;
 static PyObject *__pyx_codeobj__6;
 /* Late includes */
 
-/* "gravity_cy2.pyx":5
+/* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":5
  * cdef class Planet(object):
  *     cdef public double x, y, z, vx, vy, vz, m
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -1240,27 +1246,27 @@ static PyObject *__pyx_codeobj__6;
  */
 
 /* Python wrapper */
-static int __pyx_pw_11gravity_cy2_6Planet_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_11gravity_cy2_6Planet_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__ (wrapper)", 0);
   if (unlikely(PyTuple_GET_SIZE(__pyx_args) > 0)) {
     __Pyx_RaiseArgtupleInvalid("__init__", 1, 0, 0, PyTuple_GET_SIZE(__pyx_args)); return -1;}
   if (unlikely(__pyx_kwds) && unlikely(PyDict_Size(__pyx_kwds) > 0) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__init__", 0))) return -1;
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet___init__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet___init__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_11gravity_cy2_6Planet___init__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self) {
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet___init__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "gravity_cy2.pyx":7
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":7
  *     def __init__(self):
  *         # some initial position and velocity
  *         self.x = 1.0             # <<<<<<<<<<<<<<
@@ -1269,7 +1275,7 @@ static int __pyx_pf_11gravity_cy2_6Planet___init__(struct __pyx_obj_11gravity_cy
  */
   __pyx_v_self->x = 1.0;
 
-  /* "gravity_cy2.pyx":8
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":8
  *         # some initial position and velocity
  *         self.x = 1.0
  *         self.y = 0.0             # <<<<<<<<<<<<<<
@@ -1278,7 +1284,7 @@ static int __pyx_pf_11gravity_cy2_6Planet___init__(struct __pyx_obj_11gravity_cy
  */
   __pyx_v_self->y = 0.0;
 
-  /* "gravity_cy2.pyx":9
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":9
  *         self.x = 1.0
  *         self.y = 0.0
  *         self.z = 0.0             # <<<<<<<<<<<<<<
@@ -1287,7 +1293,7 @@ static int __pyx_pf_11gravity_cy2_6Planet___init__(struct __pyx_obj_11gravity_cy
  */
   __pyx_v_self->z = 0.0;
 
-  /* "gravity_cy2.pyx":10
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":10
  *         self.y = 0.0
  *         self.z = 0.0
  *         self.vx = 0.0             # <<<<<<<<<<<<<<
@@ -1296,7 +1302,7 @@ static int __pyx_pf_11gravity_cy2_6Planet___init__(struct __pyx_obj_11gravity_cy
  */
   __pyx_v_self->vx = 0.0;
 
-  /* "gravity_cy2.pyx":11
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":11
  *         self.z = 0.0
  *         self.vx = 0.0
  *         self.vy = 0.5             # <<<<<<<<<<<<<<
@@ -1305,7 +1311,7 @@ static int __pyx_pf_11gravity_cy2_6Planet___init__(struct __pyx_obj_11gravity_cy
  */
   __pyx_v_self->vy = 0.5;
 
-  /* "gravity_cy2.pyx":12
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":12
  *         self.vx = 0.0
  *         self.vy = 0.5
  *         self.vz = 0.0             # <<<<<<<<<<<<<<
@@ -1314,7 +1320,7 @@ static int __pyx_pf_11gravity_cy2_6Planet___init__(struct __pyx_obj_11gravity_cy
  */
   __pyx_v_self->vz = 0.0;
 
-  /* "gravity_cy2.pyx":14
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":14
  *         self.vz = 0.0
  *         # some mass
  *         self.m = 1.0             # <<<<<<<<<<<<<<
@@ -1323,7 +1329,7 @@ static int __pyx_pf_11gravity_cy2_6Planet___init__(struct __pyx_obj_11gravity_cy
  */
   __pyx_v_self->m = 1.0;
 
-  /* "gravity_cy2.pyx":5
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":5
  * cdef class Planet(object):
  *     cdef public double x, y, z, vx, vy, vz, m
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -1337,7 +1343,7 @@ static int __pyx_pf_11gravity_cy2_6Planet___init__(struct __pyx_obj_11gravity_cy
   return __pyx_r;
 }
 
-/* "gravity_cy2.pyx":4
+/* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":4
  * 
  * cdef class Planet(object):
  *     cdef public double x, y, z, vx, vy, vz, m             # <<<<<<<<<<<<<<
@@ -1346,19 +1352,19 @@ static int __pyx_pf_11gravity_cy2_6Planet___init__(struct __pyx_obj_11gravity_cy
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_1x_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_1x_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1x_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1x_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_1x___get__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1x___get__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_1x___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self) {
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1x___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1373,7 +1379,7 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_1x___get__(struct __pyx_obj_11gr
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gravity_cy2.Planet.x.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.x.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1382,19 +1388,19 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_1x___get__(struct __pyx_obj_11gr
 }
 
 /* Python wrapper */
-static int __pyx_pw_11gravity_cy2_6Planet_1x_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
-static int __pyx_pw_11gravity_cy2_6Planet_1x_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1x_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1x_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_1x_2__set__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1x_2__set__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_11gravity_cy2_6Planet_1x_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1x_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   double __pyx_t_1;
@@ -1406,7 +1412,7 @@ static int __pyx_pf_11gravity_cy2_6Planet_1x_2__set__(struct __pyx_obj_11gravity
   __pyx_r = 0;
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("gravity_cy2.Planet.x.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.x.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -1414,19 +1420,19 @@ static int __pyx_pf_11gravity_cy2_6Planet_1x_2__set__(struct __pyx_obj_11gravity
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_1y_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_1y_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1y_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1y_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_1y___get__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1y___get__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_1y___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self) {
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1y___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1441,7 +1447,7 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_1y___get__(struct __pyx_obj_11gr
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gravity_cy2.Planet.y.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.y.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1450,19 +1456,19 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_1y___get__(struct __pyx_obj_11gr
 }
 
 /* Python wrapper */
-static int __pyx_pw_11gravity_cy2_6Planet_1y_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
-static int __pyx_pw_11gravity_cy2_6Planet_1y_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1y_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1y_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_1y_2__set__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1y_2__set__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_11gravity_cy2_6Planet_1y_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1y_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   double __pyx_t_1;
@@ -1474,7 +1480,7 @@ static int __pyx_pf_11gravity_cy2_6Planet_1y_2__set__(struct __pyx_obj_11gravity
   __pyx_r = 0;
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("gravity_cy2.Planet.y.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.y.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -1482,19 +1488,19 @@ static int __pyx_pf_11gravity_cy2_6Planet_1y_2__set__(struct __pyx_obj_11gravity
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_1z_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_1z_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1z_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1z_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_1z___get__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1z___get__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_1z___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self) {
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1z___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1509,7 +1515,7 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_1z___get__(struct __pyx_obj_11gr
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gravity_cy2.Planet.z.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.z.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1518,19 +1524,19 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_1z___get__(struct __pyx_obj_11gr
 }
 
 /* Python wrapper */
-static int __pyx_pw_11gravity_cy2_6Planet_1z_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
-static int __pyx_pw_11gravity_cy2_6Planet_1z_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1z_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1z_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_1z_2__set__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1z_2__set__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_11gravity_cy2_6Planet_1z_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1z_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   double __pyx_t_1;
@@ -1542,7 +1548,7 @@ static int __pyx_pf_11gravity_cy2_6Planet_1z_2__set__(struct __pyx_obj_11gravity
   __pyx_r = 0;
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("gravity_cy2.Planet.z.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.z.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -1550,19 +1556,19 @@ static int __pyx_pf_11gravity_cy2_6Planet_1z_2__set__(struct __pyx_obj_11gravity
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_2vx_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_2vx_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vx_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vx_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_2vx___get__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vx___get__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_2vx___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self) {
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vx___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1577,7 +1583,7 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_2vx___get__(struct __pyx_obj_11g
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gravity_cy2.Planet.vx.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.vx.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1586,19 +1592,19 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_2vx___get__(struct __pyx_obj_11g
 }
 
 /* Python wrapper */
-static int __pyx_pw_11gravity_cy2_6Planet_2vx_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
-static int __pyx_pw_11gravity_cy2_6Planet_2vx_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vx_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vx_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_2vx_2__set__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vx_2__set__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_11gravity_cy2_6Planet_2vx_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vx_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   double __pyx_t_1;
@@ -1610,7 +1616,7 @@ static int __pyx_pf_11gravity_cy2_6Planet_2vx_2__set__(struct __pyx_obj_11gravit
   __pyx_r = 0;
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("gravity_cy2.Planet.vx.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.vx.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -1618,19 +1624,19 @@ static int __pyx_pf_11gravity_cy2_6Planet_2vx_2__set__(struct __pyx_obj_11gravit
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_2vy_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_2vy_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vy_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vy_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_2vy___get__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vy___get__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_2vy___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self) {
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vy___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1645,7 +1651,7 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_2vy___get__(struct __pyx_obj_11g
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gravity_cy2.Planet.vy.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.vy.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1654,19 +1660,19 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_2vy___get__(struct __pyx_obj_11g
 }
 
 /* Python wrapper */
-static int __pyx_pw_11gravity_cy2_6Planet_2vy_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
-static int __pyx_pw_11gravity_cy2_6Planet_2vy_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vy_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vy_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_2vy_2__set__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vy_2__set__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_11gravity_cy2_6Planet_2vy_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vy_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   double __pyx_t_1;
@@ -1678,7 +1684,7 @@ static int __pyx_pf_11gravity_cy2_6Planet_2vy_2__set__(struct __pyx_obj_11gravit
   __pyx_r = 0;
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("gravity_cy2.Planet.vy.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.vy.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -1686,19 +1692,19 @@ static int __pyx_pf_11gravity_cy2_6Planet_2vy_2__set__(struct __pyx_obj_11gravit
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_2vz_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_2vz_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vz_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vz_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_2vz___get__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vz___get__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_2vz___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self) {
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vz___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1713,7 +1719,7 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_2vz___get__(struct __pyx_obj_11g
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gravity_cy2.Planet.vz.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.vz.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1722,19 +1728,19 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_2vz___get__(struct __pyx_obj_11g
 }
 
 /* Python wrapper */
-static int __pyx_pw_11gravity_cy2_6Planet_2vz_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
-static int __pyx_pw_11gravity_cy2_6Planet_2vz_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vz_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vz_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_2vz_2__set__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vz_2__set__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_11gravity_cy2_6Planet_2vz_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vz_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   double __pyx_t_1;
@@ -1746,7 +1752,7 @@ static int __pyx_pf_11gravity_cy2_6Planet_2vz_2__set__(struct __pyx_obj_11gravit
   __pyx_r = 0;
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("gravity_cy2.Planet.vz.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.vz.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -1754,19 +1760,19 @@ static int __pyx_pf_11gravity_cy2_6Planet_2vz_2__set__(struct __pyx_obj_11gravit
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_1m_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_1m_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1m_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1m_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_1m___get__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1m___get__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_1m___get__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self) {
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1m___get__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1781,7 +1787,7 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_1m___get__(struct __pyx_obj_11gr
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gravity_cy2.Planet.m.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.m.__get__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1790,19 +1796,19 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_1m___get__(struct __pyx_obj_11gr
 }
 
 /* Python wrapper */
-static int __pyx_pw_11gravity_cy2_6Planet_1m_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
-static int __pyx_pw_11gravity_cy2_6Planet_1m_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1m_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1m_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_1m_2__set__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1m_2__set__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v_value));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_11gravity_cy2_6Planet_1m_2__set__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
+static int __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1m_2__set__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   double __pyx_t_1;
@@ -1814,7 +1820,7 @@ static int __pyx_pf_11gravity_cy2_6Planet_1m_2__set__(struct __pyx_obj_11gravity
   __pyx_r = 0;
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("gravity_cy2.Planet.m.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.m.__set__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -1828,19 +1834,19 @@ static int __pyx_pf_11gravity_cy2_6Planet_1m_2__set__(struct __pyx_obj_11gravity
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_3__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_3__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_3__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_3__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_2__reduce_cython__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2__reduce_cython__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_2__reduce_cython__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self) {
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2__reduce_cython__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self) {
   int __pyx_v_use_setstate;
   PyObject *__pyx_v_state = NULL;
   PyObject *__pyx_v__dict = NULL;
@@ -2083,7 +2089,7 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_2__reduce_cython__(struct __pyx_
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("gravity_cy2.Planet.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_state);
@@ -2101,19 +2107,19 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_2__reduce_cython__(struct __pyx_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_5__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
-static PyObject *__pyx_pw_11gravity_cy2_6Planet_5__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_5__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_5__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11gravity_cy2_6Planet_4__setstate_cython__(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_4__setstate_cython__(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11gravity_cy2_6Planet_4__setstate_cython__(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_4__setstate_cython__(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2125,7 +2131,7 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_4__setstate_cython__(struct __py
  *     __pyx_unpickle_Planet__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_v___pyx_state)->tp_name), 0))) __PYX_ERR(1, 15, __pyx_L1_error)
-  __pyx_t_1 = __pyx_f_11gravity_cy2___pyx_unpickle_Planet__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 15, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2___pyx_unpickle_Planet__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 15, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -2141,7 +2147,7 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_4__setstate_cython__(struct __py
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gravity_cy2.Planet.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2149,7 +2155,7 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_4__setstate_cython__(struct __py
   return __pyx_r;
 }
 
-/* "gravity_cy2.pyx":16
+/* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":16
  *         self.m = 1.0
  * 
  * def single_step(planet, dt):             # <<<<<<<<<<<<<<
@@ -2158,10 +2164,10 @@ static PyObject *__pyx_pf_11gravity_cy2_6Planet_4__setstate_cython__(struct __py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11gravity_cy2_1single_step(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_11gravity_cy2_single_step[] = "Make a single time step";
-static PyMethodDef __pyx_mdef_11gravity_cy2_1single_step = {"single_step", (PyCFunction)__pyx_pw_11gravity_cy2_1single_step, METH_VARARGS|METH_KEYWORDS, __pyx_doc_11gravity_cy2_single_step};
-static PyObject *__pyx_pw_11gravity_cy2_1single_step(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_1single_step(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_single_step[] = "Make a single time step";
+static PyMethodDef __pyx_mdef_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_1single_step = {"single_step", (PyCFunction)__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_1single_step, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_single_step};
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_1single_step(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_planet = 0;
   PyObject *__pyx_v_dt = 0;
   PyObject *__pyx_r = 0;
@@ -2209,18 +2215,18 @@ static PyObject *__pyx_pw_11gravity_cy2_1single_step(PyObject *__pyx_self, PyObj
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("single_step", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 16, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gravity_cy2.single_step", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.single_step", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11gravity_cy2_single_step(__pyx_self, __pyx_v_planet, __pyx_v_dt);
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_single_step(__pyx_self, __pyx_v_planet, __pyx_v_dt);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_planet, PyObject *__pyx_v_dt) {
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_planet, PyObject *__pyx_v_dt) {
   PyObject *__pyx_v_distance = NULL;
   PyObject *__pyx_v_Fx = NULL;
   PyObject *__pyx_v_Fy = NULL;
@@ -2234,7 +2240,7 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   PyObject *__pyx_t_5 = NULL;
   __Pyx_RefNannySetupContext("single_step", 0);
 
-  /* "gravity_cy2.pyx":19
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":19
  *     """Make a single time step"""
  *     # Compute force: gravity towards origin
  *     distance = sqrt(planet.x**2 + planet.y**2 + planet.z**2)             # <<<<<<<<<<<<<<
@@ -2315,7 +2321,7 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   __pyx_v_distance = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gravity_cy2.pyx":20
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":20
  *     # Compute force: gravity towards origin
  *     distance = sqrt(planet.x**2 + planet.y**2 + planet.z**2)
  *     Fx = -planet.x / distance**3             # <<<<<<<<<<<<<<
@@ -2336,7 +2342,7 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   __pyx_v_Fx = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "gravity_cy2.pyx":21
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":21
  *     distance = sqrt(planet.x**2 + planet.y**2 + planet.z**2)
  *     Fx = -planet.x / distance**3
  *     Fy = -planet.y / distance**3             # <<<<<<<<<<<<<<
@@ -2357,7 +2363,7 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   __pyx_v_Fy = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "gravity_cy2.pyx":22
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":22
  *     Fx = -planet.x / distance**3
  *     Fy = -planet.y / distance**3
  *     Fz = -planet.z / distance**3             # <<<<<<<<<<<<<<
@@ -2378,7 +2384,7 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   __pyx_v_Fz = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gravity_cy2.pyx":24
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":24
  *     Fz = -planet.z / distance**3
  *     # Time step position, according to velocity
  *     planet.x += dt * planet.vx             # <<<<<<<<<<<<<<
@@ -2399,7 +2405,7 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_planet, __pyx_n_s_x, __pyx_t_2) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gravity_cy2.pyx":25
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":25
  *     # Time step position, according to velocity
  *     planet.x += dt * planet.vx
  *     planet.y += dt * planet.vy             # <<<<<<<<<<<<<<
@@ -2420,7 +2426,7 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_planet, __pyx_n_s_y, __pyx_t_3) < 0) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gravity_cy2.pyx":26
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":26
  *     planet.x += dt * planet.vx
  *     planet.y += dt * planet.vy
  *     planet.z += dt * planet.vz             # <<<<<<<<<<<<<<
@@ -2441,7 +2447,7 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_planet, __pyx_n_s_z, __pyx_t_1) < 0) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gravity_cy2.pyx":28
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":28
  *     planet.z += dt * planet.vz
  *     # Time step velocity, according to force and mass
  *     planet.vx += dt * Fx / planet.m             # <<<<<<<<<<<<<<
@@ -2465,7 +2471,7 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_planet, __pyx_n_s_vx, __pyx_t_3) < 0) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gravity_cy2.pyx":29
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":29
  *     # Time step velocity, according to force and mass
  *     planet.vx += dt * Fx / planet.m
  *     planet.vy += dt * Fy / planet.m             # <<<<<<<<<<<<<<
@@ -2489,12 +2495,12 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_planet, __pyx_n_s_vy, __pyx_t_1) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gravity_cy2.pyx":30
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":30
  *     planet.vx += dt * Fx / planet.m
  *     planet.vy += dt * Fy / planet.m
  *     planet.vz += dt * Fz / planet.m             # <<<<<<<<<<<<<<
  * 
- * def step_time(planet, double time_span, int n_steps):
+ * def step_time(Planet planet, double time_span, int n_steps):
  */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_planet, __pyx_n_s_vz); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -2513,7 +2519,7 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_planet, __pyx_n_s_vz, __pyx_t_3) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gravity_cy2.pyx":16
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":16
  *         self.m = 1.0
  * 
  * def single_step(planet, dt):             # <<<<<<<<<<<<<<
@@ -2530,7 +2536,7 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("gravity_cy2.single_step", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.single_step", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_distance);
@@ -2542,20 +2548,20 @@ static PyObject *__pyx_pf_11gravity_cy2_single_step(CYTHON_UNUSED PyObject *__py
   return __pyx_r;
 }
 
-/* "gravity_cy2.pyx":32
+/* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":32
  *     planet.vz += dt * Fz / planet.m
  * 
- * def step_time(planet, double time_span, int n_steps):             # <<<<<<<<<<<<<<
+ * def step_time(Planet planet, double time_span, int n_steps):             # <<<<<<<<<<<<<<
  *     """Make a number of time steps forward """
  *     cdef double dt
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11gravity_cy2_3step_time(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_11gravity_cy2_2step_time[] = "Make a number of time steps forward ";
-static PyMethodDef __pyx_mdef_11gravity_cy2_3step_time = {"step_time", (PyCFunction)__pyx_pw_11gravity_cy2_3step_time, METH_VARARGS|METH_KEYWORDS, __pyx_doc_11gravity_cy2_2step_time};
-static PyObject *__pyx_pw_11gravity_cy2_3step_time(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
-  PyObject *__pyx_v_planet = 0;
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_3step_time(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_2step_time[] = "Make a number of time steps forward ";
+static PyMethodDef __pyx_mdef_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_3step_time = {"step_time", (PyCFunction)__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_3step_time, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_2step_time};
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_3step_time(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_planet = 0;
   double __pyx_v_time_span;
   int __pyx_v_n_steps;
   PyObject *__pyx_r = 0;
@@ -2605,7 +2611,7 @@ static PyObject *__pyx_pw_11gravity_cy2_3step_time(PyObject *__pyx_self, PyObjec
       values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
       values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
     }
-    __pyx_v_planet = values[0];
+    __pyx_v_planet = ((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)values[0]);
     __pyx_v_time_span = __pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_time_span == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 32, __pyx_L3_error)
     __pyx_v_n_steps = __Pyx_PyInt_As_int(values[2]); if (unlikely((__pyx_v_n_steps == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 32, __pyx_L3_error)
   }
@@ -2613,18 +2619,23 @@ static PyObject *__pyx_pw_11gravity_cy2_3step_time(PyObject *__pyx_self, PyObjec
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("step_time", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 32, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gravity_cy2.step_time", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.step_time", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11gravity_cy2_2step_time(__pyx_self, __pyx_v_planet, __pyx_v_time_span, __pyx_v_n_steps);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_planet), __pyx_ptype_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet, 1, "planet", 0))) __PYX_ERR(0, 32, __pyx_L1_error)
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_2step_time(__pyx_self, __pyx_v_planet, __pyx_v_time_span, __pyx_v_n_steps);
 
   /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_planet, double __pyx_v_time_span, int __pyx_v_n_steps) {
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx_self, struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v_planet, double __pyx_v_time_span, int __pyx_v_n_steps) {
   double __pyx_v_dt;
   CYTHON_UNUSED int __pyx_v_j;
   PyObject *__pyx_r = NULL;
@@ -2640,7 +2651,7 @@ static PyObject *__pyx_pf_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx
   PyObject *__pyx_t_9 = NULL;
   __Pyx_RefNannySetupContext("step_time", 0);
 
-  /* "gravity_cy2.pyx":36
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":36
  *     cdef double dt
  *     cdef int j
  *     dt = time_span / n_steps             # <<<<<<<<<<<<<<
@@ -2653,7 +2664,7 @@ static PyObject *__pyx_pf_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx
   }
   __pyx_v_dt = (__pyx_v_time_span / __pyx_v_n_steps);
 
-  /* "gravity_cy2.pyx":38
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":38
  *     dt = time_span / n_steps
  * 
  *     for j in range(n_steps):             # <<<<<<<<<<<<<<
@@ -2664,7 +2675,7 @@ static PyObject *__pyx_pf_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_j = __pyx_t_3;
 
-    /* "gravity_cy2.pyx":39
+    /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":39
  * 
  *     for j in range(n_steps):
  *         single_step(planet, dt)             # <<<<<<<<<<<<<<
@@ -2687,7 +2698,7 @@ static PyObject *__pyx_pf_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx
     }
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_5)) {
-      PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_v_planet, __pyx_t_6};
+      PyObject *__pyx_temp[3] = {__pyx_t_7, ((PyObject *)__pyx_v_planet), __pyx_t_6};
       __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_8, 2+__pyx_t_8); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 39, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_GOTREF(__pyx_t_4);
@@ -2696,7 +2707,7 @@ static PyObject *__pyx_pf_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx
     #endif
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
-      PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_v_planet, __pyx_t_6};
+      PyObject *__pyx_temp[3] = {__pyx_t_7, ((PyObject *)__pyx_v_planet), __pyx_t_6};
       __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_8, 2+__pyx_t_8); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 39, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_GOTREF(__pyx_t_4);
@@ -2709,9 +2720,9 @@ static PyObject *__pyx_pf_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx
       if (__pyx_t_7) {
         __Pyx_GIVEREF(__pyx_t_7); PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_7); __pyx_t_7 = NULL;
       }
-      __Pyx_INCREF(__pyx_v_planet);
-      __Pyx_GIVEREF(__pyx_v_planet);
-      PyTuple_SET_ITEM(__pyx_t_9, 0+__pyx_t_8, __pyx_v_planet);
+      __Pyx_INCREF(((PyObject *)__pyx_v_planet));
+      __Pyx_GIVEREF(((PyObject *)__pyx_v_planet));
+      PyTuple_SET_ITEM(__pyx_t_9, 0+__pyx_t_8, ((PyObject *)__pyx_v_planet));
       __Pyx_GIVEREF(__pyx_t_6);
       PyTuple_SET_ITEM(__pyx_t_9, 1+__pyx_t_8, __pyx_t_6);
       __pyx_t_6 = 0;
@@ -2723,10 +2734,10 @@ static PyObject *__pyx_pf_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   }
 
-  /* "gravity_cy2.pyx":32
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":32
  *     planet.vz += dt * Fz / planet.m
  * 
- * def step_time(planet, double time_span, int n_steps):             # <<<<<<<<<<<<<<
+ * def step_time(Planet planet, double time_span, int n_steps):             # <<<<<<<<<<<<<<
  *     """Make a number of time steps forward """
  *     cdef double dt
  */
@@ -2740,7 +2751,7 @@ static PyObject *__pyx_pf_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_9);
-  __Pyx_AddTraceback("gravity_cy2.step_time", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.step_time", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2755,9 +2766,9 @@ static PyObject *__pyx_pf_11gravity_cy2_2step_time(CYTHON_UNUSED PyObject *__pyx
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11gravity_cy2_5__pyx_unpickle_Planet(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11gravity_cy2_5__pyx_unpickle_Planet = {"__pyx_unpickle_Planet", (PyCFunction)__pyx_pw_11gravity_cy2_5__pyx_unpickle_Planet, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11gravity_cy2_5__pyx_unpickle_Planet(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_5__pyx_unpickle_Planet(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_5__pyx_unpickle_Planet = {"__pyx_unpickle_Planet", (PyCFunction)__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_5__pyx_unpickle_Planet, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_5__pyx_unpickle_Planet(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v___pyx_type = 0;
   long __pyx_v___pyx_checksum;
   PyObject *__pyx_v___pyx_state = 0;
@@ -2816,18 +2827,18 @@ static PyObject *__pyx_pw_11gravity_cy2_5__pyx_unpickle_Planet(PyObject *__pyx_s
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__pyx_unpickle_Planet", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 1, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gravity_cy2.__pyx_unpickle_Planet", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.__pyx_unpickle_Planet", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11gravity_cy2_4__pyx_unpickle_Planet(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_4__pyx_unpickle_Planet(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11gravity_cy2_4__pyx_unpickle_Planet(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_4__pyx_unpickle_Planet(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_v___pyx_PickleError = NULL;
   PyObject *__pyx_v___pyx_result = NULL;
   PyObject *__pyx_r = NULL;
@@ -2950,7 +2961,7 @@ static PyObject *__pyx_pf_11gravity_cy2_4__pyx_unpickle_Planet(CYTHON_UNUSED PyO
  *     if __pyx_state is not None:
  *         __pyx_unpickle_Planet__set_state(<Planet> __pyx_result, __pyx_state)
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_11gravity_cy2_Planet), __pyx_n_s_new); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 5, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet), __pyx_n_s_new); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_6 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
@@ -3017,7 +3028,7 @@ static PyObject *__pyx_pf_11gravity_cy2_4__pyx_unpickle_Planet(CYTHON_UNUSED PyO
  * cdef __pyx_unpickle_Planet__set_state(Planet __pyx_result, tuple __pyx_state):
  */
     if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_v___pyx_state)->tp_name), 0))) __PYX_ERR(1, 7, __pyx_L1_error)
-    __pyx_t_3 = __pyx_f_11gravity_cy2___pyx_unpickle_Planet__set_state(((struct __pyx_obj_11gravity_cy2_Planet *)__pyx_v___pyx_result), ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 7, __pyx_L1_error)
+    __pyx_t_3 = __pyx_f_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2___pyx_unpickle_Planet__set_state(((struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *)__pyx_v___pyx_result), ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 7, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
@@ -3055,7 +3066,7 @@ static PyObject *__pyx_pf_11gravity_cy2_4__pyx_unpickle_Planet(CYTHON_UNUSED PyO
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("gravity_cy2.__pyx_unpickle_Planet", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.__pyx_unpickle_Planet", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v___pyx_PickleError);
@@ -3073,7 +3084,7 @@ static PyObject *__pyx_pf_11gravity_cy2_4__pyx_unpickle_Planet(CYTHON_UNUSED PyO
  *     if len(__pyx_state) > 7 and hasattr(__pyx_result, '__dict__'):
  */
 
-static PyObject *__pyx_f_11gravity_cy2___pyx_unpickle_Planet__set_state(struct __pyx_obj_11gravity_cy2_Planet *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_f_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2___pyx_unpickle_Planet__set_state(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3271,7 +3282,7 @@ static PyObject *__pyx_f_11gravity_cy2___pyx_unpickle_Planet__set_state(struct _
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_AddTraceback("gravity_cy2.__pyx_unpickle_Planet__set_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.__pyx_unpickle_Planet__set_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3279,7 +3290,7 @@ static PyObject *__pyx_f_11gravity_cy2___pyx_unpickle_Planet__set_state(struct _
   return __pyx_r;
 }
 
-static PyObject *__pyx_tp_new_11gravity_cy2_Planet(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+static PyObject *__pyx_tp_new_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
   PyObject *o;
   if (likely((t->tp_flags & Py_TPFLAGS_IS_ABSTRACT) == 0)) {
     o = (*t->tp_alloc)(t, 0);
@@ -3290,7 +3301,7 @@ static PyObject *__pyx_tp_new_11gravity_cy2_Planet(PyTypeObject *t, CYTHON_UNUSE
   return o;
 }
 
-static void __pyx_tp_dealloc_11gravity_cy2_Planet(PyObject *o) {
+static void __pyx_tp_dealloc_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet(PyObject *o) {
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely(PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE) && Py_TYPE(o)->tp_finalize) && (!PyType_IS_GC(Py_TYPE(o)) || !_PyGC_FINALIZED(o))) {
     if (PyObject_CallFinalizerFromDealloc(o)) return;
@@ -3299,13 +3310,13 @@ static void __pyx_tp_dealloc_11gravity_cy2_Planet(PyObject *o) {
   (*Py_TYPE(o)->tp_free)(o);
 }
 
-static PyObject *__pyx_getprop_11gravity_cy2_6Planet_x(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_11gravity_cy2_6Planet_1x_1__get__(o);
+static PyObject *__pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_x(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1x_1__get__(o);
 }
 
-static int __pyx_setprop_11gravity_cy2_6Planet_x(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
+static int __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_x(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
   if (v) {
-    return __pyx_pw_11gravity_cy2_6Planet_1x_3__set__(o, v);
+    return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1x_3__set__(o, v);
   }
   else {
     PyErr_SetString(PyExc_NotImplementedError, "__del__");
@@ -3313,13 +3324,13 @@ static int __pyx_setprop_11gravity_cy2_6Planet_x(PyObject *o, PyObject *v, CYTHO
   }
 }
 
-static PyObject *__pyx_getprop_11gravity_cy2_6Planet_y(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_11gravity_cy2_6Planet_1y_1__get__(o);
+static PyObject *__pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_y(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1y_1__get__(o);
 }
 
-static int __pyx_setprop_11gravity_cy2_6Planet_y(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
+static int __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_y(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
   if (v) {
-    return __pyx_pw_11gravity_cy2_6Planet_1y_3__set__(o, v);
+    return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1y_3__set__(o, v);
   }
   else {
     PyErr_SetString(PyExc_NotImplementedError, "__del__");
@@ -3327,13 +3338,13 @@ static int __pyx_setprop_11gravity_cy2_6Planet_y(PyObject *o, PyObject *v, CYTHO
   }
 }
 
-static PyObject *__pyx_getprop_11gravity_cy2_6Planet_z(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_11gravity_cy2_6Planet_1z_1__get__(o);
+static PyObject *__pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_z(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1z_1__get__(o);
 }
 
-static int __pyx_setprop_11gravity_cy2_6Planet_z(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
+static int __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_z(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
   if (v) {
-    return __pyx_pw_11gravity_cy2_6Planet_1z_3__set__(o, v);
+    return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1z_3__set__(o, v);
   }
   else {
     PyErr_SetString(PyExc_NotImplementedError, "__del__");
@@ -3341,13 +3352,13 @@ static int __pyx_setprop_11gravity_cy2_6Planet_z(PyObject *o, PyObject *v, CYTHO
   }
 }
 
-static PyObject *__pyx_getprop_11gravity_cy2_6Planet_vx(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_11gravity_cy2_6Planet_2vx_1__get__(o);
+static PyObject *__pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_vx(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vx_1__get__(o);
 }
 
-static int __pyx_setprop_11gravity_cy2_6Planet_vx(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
+static int __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_vx(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
   if (v) {
-    return __pyx_pw_11gravity_cy2_6Planet_2vx_3__set__(o, v);
+    return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vx_3__set__(o, v);
   }
   else {
     PyErr_SetString(PyExc_NotImplementedError, "__del__");
@@ -3355,13 +3366,13 @@ static int __pyx_setprop_11gravity_cy2_6Planet_vx(PyObject *o, PyObject *v, CYTH
   }
 }
 
-static PyObject *__pyx_getprop_11gravity_cy2_6Planet_vy(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_11gravity_cy2_6Planet_2vy_1__get__(o);
+static PyObject *__pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_vy(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vy_1__get__(o);
 }
 
-static int __pyx_setprop_11gravity_cy2_6Planet_vy(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
+static int __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_vy(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
   if (v) {
-    return __pyx_pw_11gravity_cy2_6Planet_2vy_3__set__(o, v);
+    return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vy_3__set__(o, v);
   }
   else {
     PyErr_SetString(PyExc_NotImplementedError, "__del__");
@@ -3369,13 +3380,13 @@ static int __pyx_setprop_11gravity_cy2_6Planet_vy(PyObject *o, PyObject *v, CYTH
   }
 }
 
-static PyObject *__pyx_getprop_11gravity_cy2_6Planet_vz(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_11gravity_cy2_6Planet_2vz_1__get__(o);
+static PyObject *__pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_vz(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vz_1__get__(o);
 }
 
-static int __pyx_setprop_11gravity_cy2_6Planet_vz(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
+static int __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_vz(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
   if (v) {
-    return __pyx_pw_11gravity_cy2_6Planet_2vz_3__set__(o, v);
+    return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_2vz_3__set__(o, v);
   }
   else {
     PyErr_SetString(PyExc_NotImplementedError, "__del__");
@@ -3383,13 +3394,13 @@ static int __pyx_setprop_11gravity_cy2_6Planet_vz(PyObject *o, PyObject *v, CYTH
   }
 }
 
-static PyObject *__pyx_getprop_11gravity_cy2_6Planet_m(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_11gravity_cy2_6Planet_1m_1__get__(o);
+static PyObject *__pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_m(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1m_1__get__(o);
 }
 
-static int __pyx_setprop_11gravity_cy2_6Planet_m(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
+static int __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_m(PyObject *o, PyObject *v, CYTHON_UNUSED void *x) {
   if (v) {
-    return __pyx_pw_11gravity_cy2_6Planet_1m_3__set__(o, v);
+    return __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1m_3__set__(o, v);
   }
   else {
     PyErr_SetString(PyExc_NotImplementedError, "__del__");
@@ -3397,29 +3408,29 @@ static int __pyx_setprop_11gravity_cy2_6Planet_m(PyObject *o, PyObject *v, CYTHO
   }
 }
 
-static PyMethodDef __pyx_methods_11gravity_cy2_Planet[] = {
-  {"__reduce_cython__", (PyCFunction)__pyx_pw_11gravity_cy2_6Planet_3__reduce_cython__, METH_NOARGS, 0},
-  {"__setstate_cython__", (PyCFunction)__pyx_pw_11gravity_cy2_6Planet_5__setstate_cython__, METH_O, 0},
+static PyMethodDef __pyx_methods_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet[] = {
+  {"__reduce_cython__", (PyCFunction)__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_3__reduce_cython__, METH_NOARGS, 0},
+  {"__setstate_cython__", (PyCFunction)__pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_5__setstate_cython__, METH_O, 0},
   {0, 0, 0, 0}
 };
 
-static struct PyGetSetDef __pyx_getsets_11gravity_cy2_Planet[] = {
-  {(char *)"x", __pyx_getprop_11gravity_cy2_6Planet_x, __pyx_setprop_11gravity_cy2_6Planet_x, (char *)0, 0},
-  {(char *)"y", __pyx_getprop_11gravity_cy2_6Planet_y, __pyx_setprop_11gravity_cy2_6Planet_y, (char *)0, 0},
-  {(char *)"z", __pyx_getprop_11gravity_cy2_6Planet_z, __pyx_setprop_11gravity_cy2_6Planet_z, (char *)0, 0},
-  {(char *)"vx", __pyx_getprop_11gravity_cy2_6Planet_vx, __pyx_setprop_11gravity_cy2_6Planet_vx, (char *)0, 0},
-  {(char *)"vy", __pyx_getprop_11gravity_cy2_6Planet_vy, __pyx_setprop_11gravity_cy2_6Planet_vy, (char *)0, 0},
-  {(char *)"vz", __pyx_getprop_11gravity_cy2_6Planet_vz, __pyx_setprop_11gravity_cy2_6Planet_vz, (char *)0, 0},
-  {(char *)"m", __pyx_getprop_11gravity_cy2_6Planet_m, __pyx_setprop_11gravity_cy2_6Planet_m, (char *)0, 0},
+static struct PyGetSetDef __pyx_getsets_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet[] = {
+  {(char *)"x", __pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_x, __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_x, (char *)0, 0},
+  {(char *)"y", __pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_y, __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_y, (char *)0, 0},
+  {(char *)"z", __pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_z, __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_z, (char *)0, 0},
+  {(char *)"vx", __pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_vx, __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_vx, (char *)0, 0},
+  {(char *)"vy", __pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_vy, __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_vy, (char *)0, 0},
+  {(char *)"vz", __pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_vz, __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_vz, (char *)0, 0},
+  {(char *)"m", __pyx_getprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_m, __pyx_setprop_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_m, (char *)0, 0},
   {0, 0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_11gravity_cy2_Planet = {
+static PyTypeObject __pyx_type_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gravity_cy2.Planet", /*tp_name*/
-  sizeof(struct __pyx_obj_11gravity_cy2_Planet), /*tp_basicsize*/
+  "Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2.Planet", /*tp_name*/
+  sizeof(struct __pyx_obj_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_11gravity_cy2_Planet, /*tp_dealloc*/
+  __pyx_tp_dealloc_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -3447,17 +3458,17 @@ static PyTypeObject __pyx_type_11gravity_cy2_Planet = {
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_11gravity_cy2_Planet, /*tp_methods*/
+  __pyx_methods_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet, /*tp_methods*/
   0, /*tp_members*/
-  __pyx_getsets_11gravity_cy2_Planet, /*tp_getset*/
+  __pyx_getsets_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet, /*tp_getset*/
   0, /*tp_base*/
   0, /*tp_dict*/
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_11gravity_cy2_6Planet_1__init__, /*tp_init*/
+  __pyx_pw_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_6Planet_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_11gravity_cy2_Planet, /*tp_new*/
+  __pyx_tp_new_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -3514,12 +3525,12 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_Fz, __pyx_k_Fz, sizeof(__pyx_k_Fz), 0, 0, 1, 1},
   {&__pyx_kp_s_Incompatible_checksums_s_vs_0xd9, __pyx_k_Incompatible_checksums_s_vs_0xd9, sizeof(__pyx_k_Incompatible_checksums_s_vs_0xd9), 0, 0, 1, 0},
   {&__pyx_n_s_PickleError, __pyx_k_PickleError, sizeof(__pyx_k_PickleError), 0, 0, 1, 1},
+  {&__pyx_n_s_Python_CythonGravityDemo_Cy2_Res, __pyx_k_Python_CythonGravityDemo_Cy2_Res, sizeof(__pyx_k_Python_CythonGravityDemo_Cy2_Res), 0, 0, 1, 1},
   {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
   {&__pyx_n_s_dict, __pyx_k_dict, sizeof(__pyx_k_dict), 0, 0, 1, 1},
   {&__pyx_n_s_distance, __pyx_k_distance, sizeof(__pyx_k_distance), 0, 0, 1, 1},
   {&__pyx_n_s_dt, __pyx_k_dt, sizeof(__pyx_k_dt), 0, 0, 1, 1},
   {&__pyx_n_s_getstate, __pyx_k_getstate, sizeof(__pyx_k_getstate), 0, 0, 1, 1},
-  {&__pyx_n_s_gravity_cy2, __pyx_k_gravity_cy2, sizeof(__pyx_k_gravity_cy2), 0, 0, 1, 1},
   {&__pyx_kp_s_gravity_cy2_pyx, __pyx_k_gravity_cy2_pyx, sizeof(__pyx_k_gravity_cy2_pyx), 0, 0, 1, 0},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_n_s_j, __pyx_k_j, sizeof(__pyx_k_j), 0, 0, 1, 1},
@@ -3569,7 +3580,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "gravity_cy2.pyx":16
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":16
  *         self.m = 1.0
  * 
  * def single_step(planet, dt):             # <<<<<<<<<<<<<<
@@ -3581,10 +3592,10 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple_);
   __pyx_codeobj__2 = (PyObject*)__Pyx_PyCode_New(2, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple_, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_gravity_cy2_pyx, __pyx_n_s_single_step, 16, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__2)) __PYX_ERR(0, 16, __pyx_L1_error)
 
-  /* "gravity_cy2.pyx":32
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":32
  *     planet.vz += dt * Fz / planet.m
  * 
- * def step_time(planet, double time_span, int n_steps):             # <<<<<<<<<<<<<<
+ * def step_time(Planet planet, double time_span, int n_steps):             # <<<<<<<<<<<<<<
  *     """Make a number of time steps forward """
  *     cdef double dt
  */
@@ -3655,14 +3666,14 @@ static int __Pyx_modinit_type_init_code(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  if (PyType_Ready(&__pyx_type_11gravity_cy2_Planet) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
-  __pyx_type_11gravity_cy2_Planet.tp_print = 0;
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_11gravity_cy2_Planet.tp_dictoffset && __pyx_type_11gravity_cy2_Planet.tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_type_11gravity_cy2_Planet.tp_getattro = __Pyx_PyObject_GenericGetAttr;
+  if (PyType_Ready(&__pyx_type_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
+  __pyx_type_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet.tp_print = 0;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet.tp_dictoffset && __pyx_type_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet.tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_type_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttrString(__pyx_m, "Planet", (PyObject *)&__pyx_type_11gravity_cy2_Planet) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
-  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_11gravity_cy2_Planet) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
-  __pyx_ptype_11gravity_cy2_Planet = &__pyx_type_11gravity_cy2_Planet;
+  if (PyObject_SetAttrString(__pyx_m, "Planet", (PyObject *)&__pyx_type_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
+  __pyx_ptype_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet = &__pyx_type_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_Planet;
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -3840,14 +3851,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_gravity_cy2) {
+  if (__pyx_module_is_main_Python__CythonGravityDemo__Cy2_RestrictClassVariables__gravity_cy2) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "gravity_cy2")) {
-      if (unlikely(PyDict_SetItemString(modules, "gravity_cy2", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2")) {
+      if (unlikely(PyDict_SetItemString(modules, "Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -3868,7 +3879,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "gravity_cy2.pyx":1
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":1
  * from math import sqrt             # <<<<<<<<<<<<<<
  * 
  * cdef class Planet(object):
@@ -3887,26 +3898,26 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gravity_cy2.pyx":16
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":16
  *         self.m = 1.0
  * 
  * def single_step(planet, dt):             # <<<<<<<<<<<<<<
  *     """Make a single time step"""
  *     # Compute force: gravity towards origin
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_11gravity_cy2_1single_step, NULL, __pyx_n_s_gravity_cy2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 16, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_1single_step, NULL, __pyx_n_s_Python_CythonGravityDemo_Cy2_Res); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_single_step, __pyx_t_2) < 0) __PYX_ERR(0, 16, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gravity_cy2.pyx":32
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":32
  *     planet.vz += dt * Fz / planet.m
  * 
- * def step_time(planet, double time_span, int n_steps):             # <<<<<<<<<<<<<<
+ * def step_time(Planet planet, double time_span, int n_steps):             # <<<<<<<<<<<<<<
  *     """Make a number of time steps forward """
  *     cdef double dt
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_11gravity_cy2_3step_time, NULL, __pyx_n_s_gravity_cy2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 32, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_3step_time, NULL, __pyx_n_s_Python_CythonGravityDemo_Cy2_Res); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 32, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_step_time, __pyx_t_2) < 0) __PYX_ERR(0, 32, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -3916,12 +3927,12 @@ if (!__Pyx_RefNanny) {
  *     if __pyx_checksum != 0xd90b9a1:
  *         from pickle import PickleError as __pyx_PickleError
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_11gravity_cy2_5__pyx_unpickle_Planet, NULL, __pyx_n_s_gravity_cy2); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6Python_17CythonGravityDemo_26Cy2_RestrictClassVariables_11gravity_cy2_5__pyx_unpickle_Planet, NULL, __pyx_n_s_Python_CythonGravityDemo_Cy2_Res); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pyx_unpickle_Planet, __pyx_t_2) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gravity_cy2.pyx":1
+  /* "Python/CythonGravityDemo/Cy2_RestrictClassVariables/gravity_cy2.pyx":1
  * from math import sqrt             # <<<<<<<<<<<<<<
  * 
  * cdef class Planet(object):
@@ -3939,11 +3950,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init gravity_cy2", 0, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2", 0, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init gravity_cy2");
+    PyErr_SetString(PyExc_ImportError, "init Python.CythonGravityDemo.Cy2_RestrictClassVariables.gravity_cy2");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -4524,6 +4535,27 @@ static CYTHON_INLINE int __Pyx_PyObject_SetAttrStr(PyObject* obj, PyObject* attr
     return PyObject_SetAttr(obj, attr_name, value);
 }
 #endif
+
+/* ArgTypeTest */
+    static int __Pyx__ArgTypeTest(PyObject *obj, PyTypeObject *type, const char *name, int exact)
+{
+    if (unlikely(!type)) {
+        PyErr_SetString(PyExc_SystemError, "Missing type object");
+        return 0;
+    }
+    else if (exact) {
+        #if PY_MAJOR_VERSION == 2
+        if ((type == &PyBaseString_Type) && likely(__Pyx_PyBaseString_CheckExact(obj))) return 1;
+        #endif
+    }
+    else {
+        if (likely(__Pyx_TypeCheck(obj, type))) return 1;
+    }
+    PyErr_Format(PyExc_TypeError,
+        "Argument '%.200s' has incorrect type (expected %.200s, got %.200s)",
+        name, type->tp_name, Py_TYPE(obj)->tp_name);
+    return 0;
+}
 
 /* Import */
     static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level) {

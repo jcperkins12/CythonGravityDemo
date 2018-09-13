@@ -6,7 +6,7 @@ setup(
     cmdclass = {'build_ext': build_ext},
     ext_modules = [
         Extension("gravity_cy3",
-            ["gravity_cy4.pyx"]
+            ["gravity_cy3.pyx"]
         ),
     ]
 )
