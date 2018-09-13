@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73e7004d-f4ec-49c8-8b92-31282b66b996" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cy2_RestrictClassVariables/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cy2_RestrictClassVariables/gravity_cy2.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cy2_RestrictClassVariables/setup_cy2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cy3_cdefFunctions/gravity_cy3.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cy3_cdefFunctions/setup_cy3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cy1_RestrictTypes/gravity_cy1.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/Cy1_RestrictTypes/gravity_cy1.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_gravity.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_gravity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_gravity.py.lprof" beforeDir="false" afterPath="$PROJECT_DIR$/run_gravity.py.lprof" afterDir="false" />
-    </list>
+    <list default="true" id="73e7004d-f4ec-49c8-8b92-31282b66b996" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,15 +38,15 @@
         <counts>
           <entry key="dummy" value="31" />
           <entry key="gitignore" value="32" />
-          <entry key="py" value="359" />
-          <entry key="pyx" value="135" />
+          <entry key="py" value="362" />
+          <entry key="pyx" value="136" />
           <entry key="txt" value="776" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="839" />
-          <entry key="Python" value="494" />
+          <entry key="Python" value="498" />
         </counts>
       </usages-collector>
     </session>
@@ -76,18 +66,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cy3_cdefFunctions/gravity_cy3.pyx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="204">
+              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cy3_cdefFunctions/setup_cy3.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -118,6 +112,7 @@
         <option value="$PROJECT_DIR$/Cy1_RestrictTypes/gravity_cy1.pyx" />
         <option value="$PROJECT_DIR$/run_gravity.py" />
         <option value="$PROJECT_DIR$/Cy3_cdefFunctions/gravity_cy3.pyx" />
+        <option value="$PROJECT_DIR$/Cy3_cdefFunctions/setup_cy3.py" />
       </list>
     </option>
   </component>
@@ -338,9 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cy3_cdefFunctions/setup_cy3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cy2_RestrictClassVariables/setup_cy2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -360,8 +352,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cy3_cdefFunctions/gravity_cy3.pyx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="204">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cy3_cdefFunctions/setup_cy3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
