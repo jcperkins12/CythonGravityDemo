@@ -1,6 +1,7 @@
 from math import sqrt
 
-class Planet(object):
+cdef class Planet(object):
+    cdef public double x, y, z, vx, vy, vz, m
     def __init__(self):
         # some initial position and velocity
         self.x = 1.0
