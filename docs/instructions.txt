@@ -21,3 +21,6 @@ python -m line_profiler run_gravity.py.lprof
 -------------------- Compile gravity_cy0 -----------------------------------
 ----------------------------------------------------------------------------
  python setup_cy0.py build_ext -i
+
+ # can get annotated c files with:
+ cython -a gravity_cy.pyx
