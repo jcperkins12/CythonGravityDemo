@@ -10,7 +10,7 @@ Each directory labeled Cy0_, Cy1_, etc. is another step taken at the direction o
    conda install cython
    conda install line_profiler
    ```
-2. Copy the kernprof.exe and kernprof-script.py from the Scripts dir of of the environment to the working directory (i.e from C:\Users\*JohnDoe*\AppData\Local\Continuum\anaconda3\Scripts\ to C:\Python\CythonGravityDemo\ )
+2. Copy the kernprof.exe and kernprof-script.py from the Scripts dir of of the environment to the working directory (i.e from C:\Users\\*JohnDoe*\AppData\Local\Continuum\anaconda3\Scripts\ to C:\Python\CythonGravityDemo\ )
 
 3. Make sure that you are in the right conda environment - (my most up-to-date python 3 envinronment is called Py3x)
    ```
